@@ -1,0 +1,26 @@
+# Visual Studio files
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+
+# Unreal Engine generated
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+.idea/
+
+# Local User Configs (не нужно шарить настройки своего окна редактора)
+Config/User*.ini
+
+# Plugins (если плагин установлен в движок, он не нужен здесь. 
+# Если это твой кастомный плагин в папке Plugins - см. ниже)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# OS junk
+.DS_Store
+Thumbs.db
