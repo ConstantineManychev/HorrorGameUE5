@@ -1,0 +1,3 @@
+[submodule "Plugins/PaperZD"]
+	path = Plugins/PaperZD
+	url = https://github.com/ramAdam/PaperZD
